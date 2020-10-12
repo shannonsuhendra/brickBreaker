@@ -1,3 +1,23 @@
+## Brick Breaker
+Programmed a replica of brick breaker game with additional power features using Java for final project of CIS 120 at UPenn
+* Destroy the bricks with the ball
+* Each brick hit is worth 2 points
+* Move the paddle with left and right arrow keys to keep the ball from going off the screen or lese you will lose a life
+* Power-Ups: 
+	Freeze Bricks
+	Paddle Length Increase
+	Multiple Balls
+* Clear all the bricks and WIN
+* You have 3 lives, lose them all and it's GAME OVER
+* Brick touches the linke and it's GAME OVER
+
+## Images
+<p float="left">
+  <img src="img/game.png" alt="Power Freeze" width="400"/>
+  <img src="img/game_over.png" alt="Power Paddle" width="400"/>
+  <img src="img/game_over.png" alt="Power Ball" width="400"/>
+</p>
+
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 CIS 120 Game Project README
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
