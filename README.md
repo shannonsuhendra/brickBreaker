@@ -1,5 +1,5 @@
 ## Brick Breaker
-Programmed a replica of brick breaker game with additional power features using Java for final project of CIS 120 at UPenn
+Used Java to program a replica of brick breaker game with additional power features for final project of CIS 120 at UPenn
 * Destroy the bricks with the ball
 * Each brick hit is worth 2 points
 * Move the paddle with left and right arrow keys to keep the ball from going off the screen or lese you will lose a life
@@ -13,9 +13,9 @@ Programmed a replica of brick breaker game with additional power features using 
 
 ## Images
 <p float="left">
-  <img src="img/paddle.png" alt="Power Paddle" width="300"/>
-  <img src="img/freeze.png" alt="Power Freeze" width="300"/>
-  <img src="img/ball.png" alt="Power Ball" width="300"/>
+  <img src="img/paddle.png" alt="Power Paddle" width="250"/>
+  <img src="img/freeze.png" alt="Power Freeze" width="250"/>
+  <img src="img/ball.png" alt="Power Ball" width="250"/>
 </p>
 
 
