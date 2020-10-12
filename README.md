@@ -48,7 +48,7 @@ Programmed a replica of brick breaker game with additional power features using 
   #### GameObj
   - Takes in x coordinate, y coordinate, velocity x, velocity y, width, height and contains abstract method move and method intersects to that returns a boolean if 2 objects collide.
 	
- Classes that extends GameObj
+  // Classes that extends GameObj
   #### Ball 
   - Bounces off bricks, paddle, left and right screen
   - Doesn't take extra argument. 
