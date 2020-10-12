@@ -1,6 +1,5 @@
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 CIS 120 Game Project README
-PennKey: suhendra
 =:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=:=
 
 ===================
@@ -124,15 +123,4 @@ PennKey: suhendra
   in similar values and having intersection method in GameObj prevents user from accessing
   the details if an object intersects another object. The powerImplementation is also
   well encapsulated as what the power does is being handled in it's own class. 
-
-
-
-========================
-=: External Resources :=
-========================
-
-- Cite any external resources (libraries, images, tutorials, etc.) that you may
-  have used while implementing your game.
-  - 
-
 
