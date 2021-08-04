@@ -1,5 +1,5 @@
 ## Brick Breaker
-Used Java to program a replica of brick breaker game with additional power features for final project of CIS 120 at UPenn
+Used Java to program a replica of brick breaker game with additional power features 
 * Destroy the bricks with the ball
 * Each brick hit is worth 2 points
 * Move the paddle with left and right arrow keys to keep the ball from going off the screen or lese you will lose a life
@@ -19,12 +19,9 @@ Used Java to program a replica of brick breaker game with additional power featu
 </p>
 
 
-## CIS 120 Game Project README
+## Brick Breaker README
 
 ### Core Concepts 
-
-
-  #### List the core concepts, the features they implement, and why each feature is an appropriate use of the concept. Incorporate the feedback you got after submitting your proposal.
 
   #### 2D Array
   - There are 3 layers of bricks. Each layer of bricks is stored in a 2D array of Brick (which extends gameObj) that takes in x coordinate, y coordinate, velocity x, velocity y, width, height and a boolean that is true if it shows on the screen and false if it doesn’t show on the screen. It is an appropriate use of concept as the bricks are positioned in rows and columns.
@@ -41,9 +38,9 @@ Used Java to program a replica of brick breaker game with additional power featu
 - I used arrayList to store multiple balls when the power ball is activated. It is an appropriate use of concept as using arrayList allows me to easily add multiple balls when power ball is on and remove the ball if the ball goes out of the screen. At the start of the game, the arrayList will only have 1 ball so arrayList size is 1. If user gets the power ball, it adds 4 different ball to the arrayList.
 
 
-### Your Implementation 
+### Implementation 
 
-  #### Provide an overview of each of the classes in your code, and what their function is in the overall game.
+  #### Classes
   
   #### GameObj
   - Takes in x coordinate, y coordinate, velocity x, velocity y, width, height and contains abstract method move and method intersects to that returns a boolean if 2 objects collide.
@@ -76,7 +73,7 @@ Used Java to program a replica of brick breaker game with additional power featu
   - Doesn't take in extra argument. If power activated, shows the power name on screen. Handling of multiple ball is done in brick board
 			
 		
-#### Were there any significant stumbling blocks while you were implementing your game (related to your design, or otherwise)?
+#### Difficulties encountered
   * It was hard to keep track all the variables and methods that were in my game as a lot of changes has been made. Commenting on what certain parts of my code does helps with remembering what I did before. 
   * When I run into an error, it was hard to tell where the error is coming from. I traced my error by having print statements on the variables.
   * I first implemented an intersection method at the brick board class and had to write similar code multiple times to account for an object colliding with multiple object but realized I could write it at gameObj class instead.
@@ -84,6 +81,6 @@ Used Java to program a replica of brick breaker game with additional power featu
   
  
 
-#### Evaluate your design. Is there a good separation of functionality? How well is private state encapsulated? What would you refactor, if given the chance?
+#### Evaluate design
   * I believe having brick, paddle, ball, power extend GameObj is a good design as it takes in similar values and having intersection method in GameObj prevents user from accessing the details if an object intersects another object. The powerImplementation is also well encapsulated as what the power does is being handled in it's own class. 
 
