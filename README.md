@@ -9,7 +9,7 @@ Used Java to program a replica of brick breaker game with additional power featu
 	* Freeze Bricks
 * Clear all the bricks and WIN
 * You have 3 lives, lose them all and it's GAME OVER
-* Brick touches the linke and it's GAME OVER
+* Brick touches the line and it's GAME OVER
 
 ## Images
 <p float="left">
